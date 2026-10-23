@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { ASPECTS, MAX_REQUEST_LENGTH, MAX_VARIATIONS, type Aspect } from "@/lib/options";
+import LowPoly from "./LowPoly";
+import Wordmark from "./Wordmark";
 import {
   clearHistory,
   deleteHistoryItem,
@@ -113,17 +115,23 @@ export default function Home() {
   }
 
   return (
-    <main className="container">
-      <header className="header">
-        <div>
-          <h1 className="brand">Endoodle</h1>
-          <p className="muted">Describe an illustration and get it in the Enparadigm house style.</p>
+    <>
+      <header className="hero">
+        <LowPoly className="hero-art" />
+        <div className="container hero-inner">
+          <nav className="topbar">
+            <Wordmark />
+            <button className="link light" onClick={signOut}>
+              Sign out
+            </button>
+          </nav>
+          <h1 className="hero-title">Endoodle</h1>
+          <p className="hero-tagline">On-brand illustrations for the Enparadigm team, in seconds.</p>
+          <span className="hero-bar" />
         </div>
-        <button className="link" onClick={signOut}>
-          Sign out
-        </button>
       </header>
 
+      <main className="container main">
       <form className="card" onSubmit={generate}>
         <label htmlFor="request">What should the illustration show?</label>
         <textarea
@@ -251,6 +259,7 @@ export default function Home() {
           </div>
         </section>
       )}
-    </main>
+      </main>
+    </>
   );
 }

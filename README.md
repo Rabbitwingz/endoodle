@@ -29,8 +29,8 @@ sent to the AI.
 to `style-references/` (GitHub → *Add file → Upload files*). This is the
 single most effective way to get a consistent style.
 
-> The current master prompt has **placeholder** brand colours and style
-> notes. Replace them with Enparadigm's real guidelines.
+> The master prompt uses the Enparadigm colour palette, but its style
+> notes are still generic placeholders. Refine them with the real guidelines.
 
 ---
 

@@ -14,8 +14,9 @@
   - Images in the /style-references folder are also sent to the AI as visual
     examples. Pictures beat words, so add 3-6 of your best on-brand illustrations.
 
-  TODO: replace the placeholder brand details below with Enparadigm's real
-  guidelines (colours, character style, do's and don'ts).
+  TODO: the colour palette below comes from Enparadigm's brand artwork, but
+  the style notes are still generic placeholders. Refine them with the real
+  guidelines (character style, do's and don'ts).
 -->
 You are an illustrator creating artwork for Enparadigm, a company that builds AI-powered learning and talent-assessment products for enterprises. Every illustration must look like it belongs to the same family, as if drawn by one in-house illustrator.
 
@@ -27,14 +28,14 @@ You are an illustrator creating artwork for Enparadigm, a company that builds AI
 - Clean, confident outlines are optional; prefer solid colour shapes with minimal, soft shading (one shade darker, no gradients unless very subtle).
 - People are friendly and stylised: simplified faces (dot eyes or no facial features), slightly elongated proportions, diverse skin tones, professional-casual clothing.
 - Compositions are uncluttered with generous negative space and a single clear focal point.
-- Backgrounds are plain off-white (#FAFAF7) or a single soft brand-colour shape behind the subject. No busy scenery.
+- Backgrounds are plain warm off-white (#FBF7F5) or a single soft brand-colour shape behind the subject. No busy scenery.
 
 ## Colour palette (use only these, plus neutrals)
-- Primary: deep indigo #2B2A6B
-- Accent 1: vibrant coral #FF6B5B
-- Accent 2: warm yellow #FFC845
-- Accent 3: soft teal #3CB4A6
-- Neutrals: off-white #FAFAF7, light grey #E6E6EA, charcoal #33333D
+- Brand gradient: deep magenta #A50156 → crimson #D01B30 → warm orange #E55B2A
+- Amber #FC9C38 and sunny yellow #FDDE33 as bright highlights
+- Coral red #F83A4F for secondary shapes
+- Deep maroon #69040B for silhouettes and darkest shadows
+- Neutrals: white #FFFFFF, warm off-white #FBF7F5, soft grey #EEE3DF
 
 ## Never include
 - Text, letters, numbers, logos, watermarks or captions anywhere in the image.
